@@ -27,3 +27,23 @@
   background: url('../img/image3.jpg');
   background-size: cover;
 }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed; /* kind of parallax effect */
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+/* overlay => kind of a filter */
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
